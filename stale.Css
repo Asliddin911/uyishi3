@@ -1,0 +1,59 @@
+/* Umumiy sozlamalar */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+}
+
+/* Navbar va footer stilizatsiyasi */
+.navbar, .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    font-weight: bold;
+}
+
+/* Navbar va footer ichidagi linklar */
+.nav-links, .footer-links {
+    display: flex;
+    gap: 25px;
+}
+
+/* Logo joylashuvi */
+.logo {
+    margin-right: 25px;
+    font-weight: bold;
+}
+
+/* Sarlavha */
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 80px 0; /* Sarlavha va qizil to‘rtburchak orasidagi masofa oshirildi */
+    text-align: center;
+}
+
+/* To‘rtburchaklar (Left & Right) */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px; /* Ikki qizil to‘rtburchak orasidagi masofa oshirildi */
+    margin: 80px 0; /* To‘rtburchaklarning yuqori va pastki qismi bo‘shroq bo‘lishi uchun */
+}
+
+/* Qizil kvadratlar */
+.box {
+    width: 220px;
+    height: 220px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8em;
+    font-weight: bold;
+}
